@@ -16,7 +16,7 @@ df = pd.read_csv("china_concept.csv",encoding="GB2312")
 tickers = list(df.Ticker2)
 names = list(df.Name)
 
-years = [2019,2020,2021]
+years = [2021]
 months = list(range(1,13))
 days = list(range(1,31))
 periods = list(range(10,31))
